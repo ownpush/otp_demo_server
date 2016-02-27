@@ -1,0 +1,44 @@
+<!--
+    The MIT License (MIT)
+    Copyright (c) 2016 Fastboot Mobile LLC.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="body-content">
+  <div class="row">
+    <h1>OTP Demo</h1>
+    <p>
+      This demo is constructed from a simple web service and its android application counterpart. This makes use of
+      the secure nature of OwnPush to send fast, safe, and secure passwords to an Android device. After the apk is
+      installed & registered on the the android device the user is shown a short, unique device ID that they can enter
+      on a simple web form. On submission of this form the OTP is randomly generated and send to the device securely.
+    </p>
+    <p>
+      <a href="#">APK download</a>
+      <br><a href="#">OTP demo on GitHub</a>
+      <br><a href="#">OTP form</a>
+    </p>
+  </div>
+</div>
+
+{% endblock %}

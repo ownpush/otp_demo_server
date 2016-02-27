@@ -1,0 +1,30 @@
+{% extends '_base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+  <header class="content-header">
+    <h1>Please login</h1>
+  </header>
+
+  <br>
+
+
+  <form class="form" role="form" method="post" action="">
+
+    {{ form.csrf_token }}
+    {{ form.hidden_tag() }}
+    {{ wtf.form_errors(form, hiddens="only") }}
+
+
+    <div class="col-lg-4 col-sm-4">
+
+      {{ wtf.form_field(form.device_uid) }}
+      {{ wtf.form_field(form.submit) }}
+        
+    </div>
+
+  </form>
+
+
+{% endblock content %}
