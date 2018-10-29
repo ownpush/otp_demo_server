@@ -12,7 +12,7 @@ Flask-Script==2.0.5
 Flask-SQLAlchemy==2.0
 Flask-Testing==0.4.2
 Flask-WTF==0.11
-gunicorn==19.4.5
+gunicorn>=19.5.0
 itsdangerous==0.24
 Jinja2==2.7.3
 Mako==1.0.1
@@ -20,7 +20,7 @@ MarkupSafe==0.23
 pycparser==2.14
 PyNaCl==1.0.1
 python-bcrypt==0.3.1
-requests==2.9.1
+requests>=2.20.0
 six==1.10.0
 SQLAlchemy==0.9.9
 Werkzeug==0.10.4
